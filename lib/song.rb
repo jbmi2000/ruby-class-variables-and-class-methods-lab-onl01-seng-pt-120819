@@ -3,7 +3,7 @@ class Song
 
 @@count = 0
 @@genres = []
-genre_hash = {}
+# genre_hash = {}
 
 attr_accessor :name, :artist, :genre
 
@@ -35,7 +35,5 @@ def self.genre_count
       end
     end
     genre_count
-  end
-
 end
 end
